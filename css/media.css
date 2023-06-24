@@ -1,0 +1,147 @@
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 428px;
+    }
+
+}
+
+/*!----------TABLET----------*/
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    /*----------FEATURES----------*/
+
+    .features-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .features-list {
+        gap: 24px;
+    }
+}
+
+/*----------TEAM----------*/
+
+.team-container {
+    width: calc((100% - 24) / 2);
+}
+
+.team-list {
+    gap: 24px;
+    row-gap: 64px;
+}
+
+/*----------CUSTOMERS----------*/
+
+.customers-container {
+    max-width: 584px;
+}
+
+/* .customers-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.customers-list {
+    gap: 72px 24px;
+} */
+
+/*!----------DESKTOP----------*/
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1160px;
+    }
+
+    /*----------FEATURES----------*/
+
+    .features-item-container {
+        display: flex;
+        background-color: #F4F4FD;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        margin-bottom: 8px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .features-item-title {
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        text-align: left;
+    }
+
+    .features-item-text {
+        font-weight: 400;
+        letter-spacing: 0.32px;
+    }
+
+    .features {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+    }
+
+    /*----------DOING----------*/
+
+    .doing {
+        padding-bottom: 120px;
+        display: flex;
+    }
+
+    .doing-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--title-color-dark);
+        margin-bottom: 72px;
+    }
+
+    .doing-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    /*----------TEAM----------*/
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+    }
+
+    .doing-item {
+        width: 360px;
+    }
+
+    .team-container {
+        width: calc((100% - 72) / 4);
+    }
+}
+
+/*----------CUSTOMERS----------*/
+
+/* .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+} */
+
+/* .customers-item {
+    width: calc((100% - 5 * 24px) / 6);
+}
+
+.customers-list {
+    gap: 24px;
+} */
