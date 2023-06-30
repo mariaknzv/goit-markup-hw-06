@@ -92,7 +92,7 @@ img {
 
 .header-container {
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
 
 
@@ -133,11 +133,13 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
 
 }
 
 .mob-menu-container.is-open {
-    visibility: hidden;
+    transform: translateX(0);
 }
 
 .mob-close-menu {
