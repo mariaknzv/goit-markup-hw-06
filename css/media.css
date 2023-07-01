@@ -50,7 +50,7 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--title-color-dark);
-        /* padding: 24px 0; */
+        padding: 24px 0;
 
     }
 
@@ -191,10 +191,6 @@
         max-width: 1160px;
     }
 
-    .header {
-        padding: 24px 0;
-    }
-
     .header-logo {
         margin-right: 76px;
     }
@@ -211,13 +207,10 @@
     }
 
     .active::after {
-        bottom: -27px;
+        bottom: -1px;
 
     }
 
-    /* .mob-menu-container {
-            display: none;
-        } */
 
 
     /*----------SOLUTION----------*/
