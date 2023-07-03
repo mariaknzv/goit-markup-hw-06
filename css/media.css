@@ -2,6 +2,15 @@
     .container {
         max-width: 428px;
     }
+
+    .mob-item-icons {
+        gap: 56px;
+    }
+
+    .modal {
+        width: 408px;
+
+    }
 }
 
 /*!----------TABLET----------*/
@@ -116,7 +125,7 @@
     }
 
     .solution-title {
-        width: 496px;
+        max-width: 496px;
         height: 120px;
         font-size: 56px;
         margin-bottom: 36px;
@@ -128,8 +137,12 @@
         width: calc((100% - 24px) / 2);
     }
 
+    .features-item-title {
+        text-align: left;
+    }
+
     .features-list {
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     /*----------TEAM----------*/
@@ -216,6 +229,7 @@
     /*----------SOLUTION----------*/
     .solution {
         padding: 188px 0;
+        max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/header-people-office.jpg);
     }
 

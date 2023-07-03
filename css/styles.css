@@ -171,6 +171,10 @@ img {
     margin-bottom: 40px;
 }
 
+.mob-menu-item span {
+    color: #404BBF;
+}
+
 .mob-menu-link {
     color: var(--title-color-dark);
 }
@@ -217,7 +221,7 @@ img {
     display: flex;
     flex-direction: row;
     padding: 0px;
-    gap: 56px;
+    gap: 36px;
 }
 
 .mob-soc {}
@@ -264,12 +268,10 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    max-width: 496px;
     margin: 0 auto;
     margin-bottom: 72px;
-
     display: flex;
-    width: 320px;
+    max-width: 320px;
     flex-direction: column;
     text-transform: capitalize;
 
@@ -353,8 +355,8 @@ img {
 .features-item-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 0.9;
-    letter-spacing: 0.72px;
+    line-height: 1.11;
+    letter-spacing: 0.02;
     color: var(--title-color-dark);
     margin-bottom: 8px;
     text-align: center;
@@ -866,7 +868,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 408px;
+    width: 95%;
     min-height: 584px;
     background-color: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
